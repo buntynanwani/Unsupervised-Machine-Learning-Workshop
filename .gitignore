@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (don't commit large datasets)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.pkl
+data/external/*.csv
+*.h5
+*.hdf5
+
+# Models (don't commit large model files)
+results/models/*.pkl
+results/models/*.joblib
+results/models/*.h5
+*.model
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

@@ -1,0 +1,2 @@
+total_rows,total_columns,total_nulls,null_percentage,memory_usage_mb,binary_features,low_cardinality_features,medium_cardinality_features,high_cardinality_features
+8123,23,0,0.0,8.90882682800293,6,7,8,1
